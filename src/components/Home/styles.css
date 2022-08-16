@@ -1,0 +1,116 @@
+.home{
+    background-color: #0E0E13;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    height: 100vh;
+    padding: 33px 38px;
+}
+
+.home .header{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 108px;
+}
+
+.home .header :nth-child(1){
+    width: 74px;
+    height: 50px;
+    bottom: 87%;
+}
+
+.home .header :nth-child(2){
+    width: 34px;
+    height: 34px;
+    top: 22px;
+}
+
+.home .greetings{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+
+    display: flex;
+    justify-content: center;
+}
+
+.home .benefits form{
+    display: flex;
+    flex-direction: column;
+
+    gap: 8px;
+    margin-top: 57px;
+}
+
+.home .benefits button{
+    background-color: #ff4791;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    border-radius: 8px;
+
+    width: 100%;
+    height: 52px;
+
+    cursor: pointer;
+}
+
+.home .benefits button a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.home .footer{
+    display: flex;
+    flex-direction: column;
+
+    position: fixed;
+
+    width: calc(100% - 78px);
+    gap: 8px;
+    bottom: 20px;
+}
+
+.home .footer :nth-child(1){
+    background-color: #ff4791;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    border-radius: 8px;
+
+    width: 100%;
+    height: 52px;
+}
+
+.home .footer :nth-child(2){
+    background-color: #ff4747;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    border-radius: 8px;
+
+    width: 100%;
+    height: 52px;
+}
